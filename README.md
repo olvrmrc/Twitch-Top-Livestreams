@@ -31,13 +31,13 @@ pip install python-dotenv
 Obtain a Twitch API client ID and client secret by [creating a Twitch developer account](https://dev.twitch.tv/) and [registering a new application](https://dev.twitch.tv/console/apps/create):
 Create new application             |  Copy your applications ID and secret
 :-------------------------:|:-------------------------:
-![](https://github.com/olvrmrc/colours/assets/89043452/014a54a1-4b32-40d8-bbc2-f09feb73adb6)  |  ![](https://github.com/olvrmrc/colours/assets/89043452/9c89a191-3e3a-44c0-9881-8952e11672b7)
+![](https://github.com/olvrmrc/Twitch-Top-Livestreams/assets/89043452/0121480b-8617-4536-9786-01acf358db01)  |  ![](https://github.com/olvrmrc/Twitch-Top-Livestreams/assets/89043452/6def970c-f4cf-4bce-8866-4cabea808f9d)
 
 Create an .env file in the projects root folder and save both the client ID and the client secret as shown below:
-![image](https://github.com/olvrmrc/colours/assets/89043452/8f5c6540-2f41-4431-aa57-7b9c035d415f)
+![](https://github.com/olvrmrc/Twitch-Top-Livestreams/assets/89043452/ae8865d2-58d9-42e7-bc58-8e1d38d3963b)
 
 Obtain an OAuth 2.0 Token by running *api_token.py* and save it to your .env file:
-![image](https://github.com/olvrmrc/colours/assets/89043452/d5b51b38-fa31-479f-bf0c-d5f731c993d2)
+![](https://github.com/olvrmrc/Twitch-Top-Livestreams/assets/89043452/601c4c1f-6cf0-49d1-8296-02e6ea6093cf)
 
 Modify the variables in lines 11 to 15 *main.py* as you need them:
 | Name | Value | Explanation |
@@ -65,6 +65,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the MIT License.
 
 >Copyright © 2023 Marc Szigethy
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+>
+>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
