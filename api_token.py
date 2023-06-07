@@ -9,6 +9,7 @@ URL = 'https://id.twitch.tv/oauth2/token'
 CLIENT_ID = getenv('CLIENT_ID')
 CLIENT_SECRET = getenv('CLIENT_SECRET')
 
+
 def fetch_api() -> Any:
     data = {
         'client_id': CLIENT_ID,
@@ -19,6 +20,7 @@ def fetch_api() -> Any:
     response_data = post(URL, data=data).json()
     
     return response_data
+
 
 if __name__ == '__main__':
     access_token = fetch_api()['access_token']

@@ -1,7 +1,8 @@
-from dotenv import load_dotenv
 from os import getenv
-from requests import get
 from typing import Any
+
+from dotenv import load_dotenv
+from requests import get
 
 load_dotenv()
 
@@ -112,6 +113,7 @@ GAMES = [
     {'ID': 493959, 'Name': 'Red Dead Redemption 2'}
 ]
 
+
 def set_params(cursor: Any = None) -> dict[str, Any]:
     game_ids = []
 
@@ -129,6 +131,7 @@ def set_params(cursor: Any = None) -> dict[str, Any]:
 
     return params
 
+
 def fetch_api(params: dict[str, Any]) -> Any:
     headers = {
         'Client-Id': CLIENT_ID,
@@ -138,6 +141,7 @@ def fetch_api(params: dict[str, Any]) -> Any:
     data = get(url=URL, headers=headers, params=params).json()
 
     return data
+
 
 def save_names(names: list, viewer_counts: list) -> None:
     final_accounts = []
@@ -150,7 +154,8 @@ def save_names(names: list, viewer_counts: list) -> None:
         for account in final_accounts:
             txt_file.write(str(account) + '\n')
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     params = set_params()
     streams = []
 
