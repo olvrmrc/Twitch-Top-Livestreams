@@ -170,7 +170,8 @@ if __name__ == '__main__':
     viewer_counts = []
 
     for i, stream in enumerate(streams):
-        names.append(stream['user_login'])
-        viewer_counts.append(stream['viewer_count'])
+        if not stream['user_login'] in names:
+            names.append(stream['user_login'])
+            viewer_counts.append(stream['viewer_count'])
 
     save_names(names, viewer_counts)
